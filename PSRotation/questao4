@@ -1,0 +1,38 @@
+4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+
+
+IMPORTANTE:
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+
+// 4 exercicio
+Carro a 110 km/h --->   30,5556 m/s
+ Caminhão a 80 km/h ---> 22,2222 m/s
+Distancia total = 100 km 
+pedagio de 5 mim para o caminhao
+Separan por trechos
+Carro faz 36.6 km em 20 mim
+O caminha irá fazer 27,.5 km em 20 mim
+Então em 20 minutos eles terão percorrido 63km, agora vou somar 10mim que o caminhão ficará parado (caso os 2 pedagios sejam no começo)
++ 1 parada resulta em 6,666 km (do caminhão). Considerando que aconteceu 2 paradas do caminhão será uma vantagem do carro de 13,33 do carro.
+Somando isto ficaremos com:
+
+
+(36.3 + 13,33)= 49,6 + 26,4=76KM em 20 mim. Faltam 24 km sem pedágios agora.
+A cada 10 mim o carro fará  18,33
+A cada 10 mim o caminha fará 13,33
+em 7,5 mim carro fará 13,75
+O caminhao fará 10 em 7,5 mim.
+
+O carro percorrendo 36.3+13.75 + 7 (1 pegadio)= 57 km
+E o caminhão percorrendo = 40 km (em 30 mim)
+
+
+Então o carro e caminhão se encontrar em aproximadamente 32-35 minutos (isto se o caminhaõ passar pelos 2 pegadios) senão, aproximadamente,
+cada pedagio custando 9 km para o carro (a mais). Estando mais perto de Franca do que de ribeirão
